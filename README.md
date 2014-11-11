@@ -5,7 +5,7 @@ A set of scripts for projects associated with travis ci using mono (C#)
 
 Usage
 =====
-In the .travis.yml
+In the .travis.yml to setup a mono and gendarme environment
 ```text
 before_install:
   - wget "https://raw.githubusercontent.com/enckse/travis-mono-scripts/master/configure.sh"
