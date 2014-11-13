@@ -20,3 +20,11 @@ before_install:
   - sudo chmod a+x gendarme.sh
   - ./gendarme.sh
 ```
+
+Setting up stylecop:
+```text
+before_install:
+  - wget "https://raw.githubusercontent.com/enckse/travis-mono-scripts/master/stylecop.sh"
+  - sudo chmod a+x stylecop.sh
+  - ./stylecop.sh
+```
